@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Lumanosimo&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: grey;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    /*background-color: rgb(196, 9, 202);*/
+    height: 70vh;
+    width: 80vw;
+    margin: 140px auto;
+    margin-left: 175px;
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.hello{
+    font-size: 65px;
+    
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.about{
+    font-size: 25px;
+}
+
+
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    background-color: rgba(0, 106, 255, 0.858);
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    color: rgba(0, 106, 255, 0.858);
+    background-color: white;
+}
+
+.devPic img{
+    /*width: 296px;*/
+    height: 60vh;
+}
+
+.contactForm{
+    padding: 0 85px;
+    padding-top: 150px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactForm h1{
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 155px;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    margin-left: 80px;
+    
+}
+
+.introduction div{
+    padding: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 200px;
+    background-color: blanchedalmond;
+}
+
+.introduction h1{
+    text-align: left;
+    margin-left: 210px;
+}
+
+.skill li{
+    margin-left: 21px;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 130px;
+}
+
+.proj{
+    margin-left: 250px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.proj p{
+    font-size: 15px;
+    padding-top: 100px;
+    color: red;
+}
+
+
+.proj nav li{
+    padding: 15px;
+    margin-left: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.proj nav li a:hover{
+    color:rgba(0, 119, 255, 0.806);
+} 
+
+.proj nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.internship div{
+    padding: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 200px;
+    font-size: 25px;
+    background-color: blanchedalmond;
+    
+}
+
+.internship div p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.internship h2{
+    padding-top: 10px;
+}
+
+.internship h3{
+    padding-top: 10px;
+}
+
+@media (max-width: 1250px) {
+    *{
+        background-color: rgb(0 255 184 / 11%);
+    }
+    .devPic{
+        display: none;
+    }
+    .buttons{
+        font-size: 8px;
+    }
+    /*.sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }*/
+}
